@@ -258,11 +258,27 @@ h4{
   /* background-image: repeating-linear-gradient(rgb(255, 255, 255),rgb(214, 253, 251),rgb(255, 255, 255)); */
 }
 #team{
-  background-image: repeating-linear-gradient(rgb(255, 255, 255),rgb(221, 253, 251),rgb(255, 255, 255));
+  background-image: repeating-linear-gradient(rgb(58, 218, 210),rgb(231, 227, 101),rgb(236, 243, 242));
 
 }
 #footer{
-  background-color: #e6fcfa;
+  /* background-color: #e6fcfa; */
+  color:#f6f7d7;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 @media (max-width: 500px) { 
